@@ -1,0 +1,12 @@
+Html Websites
+Assets
+    CSS
+        Style.css
+    Images
+        ommited images
+    Scripts
+        Contact.js
+        Text.js
+        Rotator.js
+    Videos
+        omitted videos
