@@ -1,0 +1,1042 @@
+
+			/* Common Layout */
+			
+html {
+	font-size: 0.625rem;
+} 
+
+body {
+	background-image: url("../Images/Background.png");
+	background-size: cover;
+	color: black; 
+	font-family: calibri;
+	margin: 0px;
+	padding: 0px;
+}
+
+li a:hover {
+	background-color: #2C3531;
+}
+
+header div {
+	height: 200px;
+	background-image: url("../Images/SpaceX-Banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+			/* Desktop Layout */
+			
+@media screen and (min-width: 1224px) { 
+	
+	.Main {
+		background-color: #D1E8E2;
+		margin: auto;
+		margin-bottom: 0;
+		min-height: 75vh;
+		width: 80%;
+	}
+	
+	#Drop_Down {
+		display: none;
+	}
+				
+	ul {
+		background-color: #116566;
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	li {
+		display: inline;
+	}
+
+	li a {
+		color: white;
+		display: inline-block;
+		font-size: 1.6em;
+		padding: 10px 16px;
+		text-align: center;
+		text-decoration: none;
+		width: 10%;
+	}
+	
+	.Side_Content {
+		border-right: 1px grey solid;
+		display: inline-block;
+		font-size: 1.7em;
+		height: 100%;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+		width: 35%
+	}
+
+	.Main_Content {
+		display: inline-block;
+		font-size: 1.7em;
+		height: 100%;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+		width: 60%;	
+	}
+	
+				/*	Index.html	*/
+				
+	#Image_Rotating {
+		display: block;
+		margin-left: 23%;
+		margin-top: 10px; 
+		margin-bottom: 10px;
+	}
+				
+	#SpaceX_HQ {
+		border-radius: 10px;
+		display: inline;
+		height: 25%;
+		margin-left: 35px;
+		width: 80%;
+	}
+	
+	#SpaceX_Team {
+		border-radius: 10px;
+		display: inline;
+		height: 25%;
+		margin-left: 20%;
+		margin-right: 20%;
+		width: 60%;
+	}
+	
+	h2 {
+		display: block;
+		font-size: 1.5em;
+		margin: 10px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#HQ_Content {
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+				/*	About_SpaceX.html	 */
+				
+	.Main_Content_About {
+		font-size: 1.7em;
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+		
+	}
+	
+	#droneship {
+		margin: 10px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	iframe {
+		margin: 15px;
+		margin-left: 27.5%;
+		margin-right: 27.5%;
+		
+	}
+		
+				/*	Musk.html	*/
+				
+	#Main_Content_Musk {
+		display: inline-block;
+		font-size: 1.7em;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10px;
+		padding: 1px;
+		
+	}
+	
+	#Main_Content_Musk h3 {
+		font-size: 1.7em;
+		text-align: center;
+		text-decoration: underline;
+		
+	}
+	
+	#Main_Content_Musk li {
+		display: block;
+		
+	}
+	
+	#Musk_Image img {
+		border-radius: 10px;
+		display: inline-block;
+		margin-bottom: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 30%;
+		
+	}
+
+				/*	Current_SpaceX.html	 */
+	
+	.Rocket_Menu {
+		display: inline-block;
+		margin: 5px;
+		padding: 5px;
+		width: 25%;
+		
+	}
+	
+	.Rocket_Menu button {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: inline-block;
+		margin: 5px;
+		margin-left: 25px;
+		text-align: center;
+		
+	}
+	
+	#Rocket_1 {
+		padding: 10px 35%;
+		
+	}
+	
+	#Rocket_2 {
+		padding: 10px 30%;
+		
+	}
+	
+	#Rocket_3 {
+		padding: 10px 36%;
+		
+	}
+	
+	.Rocket_Content {
+		border-left: 1px solid black;
+		display: inline-block;
+		font-size: 1.7em;
+		margin: 5px;
+		padding: 15px;
+		width: 60%;
+		
+	}	
+	
+	.Rocket_Content h4 {
+		text-align:center;
+		font-size: 1.8em;
+		
+	}
+	
+	#Rocket_Images {
+		margin-left: 5%;
+		margin-right: 5%;
+		
+	}
+	
+	#Rocket_Images aside {
+			text-align: center;
+			font-weight: bold;
+	}
+	
+	#Falcon {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 35%;
+		margin-right: 35%;
+		width: 35%;
+	}
+	
+	#Falcon_Heavy {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+	#Dragon_Capsule {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+				/*	Future_SpaceX.html	*/
+				
+	table, th, td, tr {
+		font-size: 1.3em;
+		margin: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding: 5px;
+	}
+	
+	table {
+		background-color: white;
+	}
+	
+	th, td{
+		color: white;
+		background-color: #116566;
+	}
+	
+	.Main_Content_Future img {
+		margin-bottom: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 70%;
+	}
+	
+				/*	Contact.html	*/
+				
+	label {
+		font-size: 1.4em;
+	}
+
+	h6 {
+		font-size: 30px;
+		margin-left: 25px;
+	}	
+			
+			
+	.generalInput {
+		border: 1px solid black;
+		display: block;
+		height: 25px;
+		margin: 25px;
+		margin-bottom: 20px;
+		width: 375px;
+	}
+
+	span {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 25px;
+	}
+	
+	.clickInput {
+		border: 1px solid black;
+		margin-bottom: 7px;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+	
+	#Comment {
+		margin: 25px;
+		margin-left: 25px;
+	}
+	
+	#Submit {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: block;
+		margin: 15px;
+		margin-left: 25px;
+		padding: 10px 30px;
+		text-align: center;
+	}
+
+	footer {
+		background-color: #116466;
+		color: white;
+		font-size: 1.6em;
+		padding: 2px;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+			/* Layout - Tablet */
+			
+@media screen and (min-width: 767px) and (max-width: 1223px) {
+	
+	.Main {
+		background-color: #D1E8E2;
+		margin: auto;
+		margin-bottom: 10px;
+		min-height: 600px;
+		width: 90%;
+	}
+	
+	#Drop_Down {
+		display: none;
+	}
+				
+	ul {
+		background-color: #116566;
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	li {
+		display: inline;
+	}
+
+	li a {
+		color: white;
+		display: inline-block;
+		font-size: 1.4em;
+		padding: 8px 16px;
+		text-align: center;
+		text-decoration: none;
+		width: 10%;
+	}
+	
+	.Side_Content {
+		font-size: 1.5em;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+	}
+
+	.Main_Content {
+		font-size: 1.5em;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+	}
+	
+				/*	Index.html	*/
+				
+	#Image_Rotating, #Image_Rotating_Line {
+		display: none;
+	}
+				
+	#SpaceX_HQ {
+		border-radius: 10px;
+		display: inline;
+		height: 25%;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 50%;
+	}
+	
+	#SpaceX_Team {
+		border-radius: 10px;
+		display: inline;
+		height: 25%;
+		margin-left: 10%;
+		margin-right: 10;
+		width: 80%;	
+	}
+	
+	h2 {
+		display: block;
+		font-size: 1.5em;
+		margin: 10px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#HQ_Content, .Main_Content {
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+				/*	About_SpaceX.html	 */
+				
+	.Main_Content_About {
+		font-size: 1.7em;
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#droneship {
+		margin: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 70%;
+	}
+	
+	iframe {
+		margin: 15px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+				/*	Musk.html	*/
+				
+	#Main_Content_Musk {
+		display: inline-block;
+		font-size: 1.7em;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10px;
+		padding: 1px;	
+	}
+	
+	#Main_Content_Musk h3 {
+		font-size: 1.7em;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#Main_Content_Musk li {
+		display: block;
+	}
+	
+	#Musk_Image img {
+		border-radius: 10px;
+		display: inline-block;
+		margin-bottom: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 30%;
+	}
+	
+				/*	Current_SpaceX.html	 */
+	
+	.Rocket_Menu button {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: block;
+		margin: 5px;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding: 10px 100px;
+		text-align: center;
+	}
+	
+	.Rocket_Content {
+		border-top: 1px solid black;
+		font-size: 1.5em;
+		margin: 5px;
+		padding: 5px;
+		width: 100%;
+	}
+	
+	#Rocket_1 {
+		padding: 10px 20%;
+	}
+	
+	#Rocket_2 {
+		padding: 10px 20%;
+	}
+	
+	#Rocket_3 {
+		padding: 10px 20%;
+	}
+	
+	.Rocket_Content {
+		display: inline-block;
+		font-size: 1.7em;
+		margin: 5px;
+		padding: 15px;
+		width: 90%;
+	}	
+	
+	.Rocket_Content h4 {
+		text-align:center;
+		font-size: 1.8em;
+		
+	}
+	
+	#Rocket_Images {
+		margin-left: 5%;
+		margin-right: 5%;
+		
+	}
+	
+	#Rocket_Images aside {
+			text-align: center;
+			font-weight: bold;
+	}
+	
+	#Falcon {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 35%;
+		margin-right: 35%;
+		width: 35%;
+	}
+	
+	#Falcon_Heavy {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+	#Dragon_Capsule {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+				/*	Future_SpaceX.html	*/
+				
+	table, th, td, tr {
+		font-size: 1.2em;
+		margin: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding: 5px;
+	}
+	
+	table {
+		background-color: white;
+	}
+	
+	th, td{
+		color: white;
+		background-color: #116566;
+	}
+	
+	.Main_Content_Future img {
+		margin-bottom: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 70%;
+	}
+	
+				/*	Contact.html	*/
+				
+	label {
+		font-size: 1.5em;
+	}
+
+	h6 {
+		font-size: 30px;
+		margin-left: 25px;
+	}	
+			
+			
+	.generalInput {
+		border: 1px solid black;
+		display: block;
+		height: 25px;
+		margin: 25px;
+		margin-bottom: 20px;
+		width: 375px;
+	}
+
+	span {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 25px;
+	}
+	
+	.clickInput {
+		border: 1px solid black;
+		margin-bottom: 7px;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+	
+	#Comment {
+		margin: 25px;
+		margin-left: 25px;
+	}
+	
+	#Submit {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: block;
+		margin: 15px;
+		margin-left: 25px;
+		padding: 10px 30px;
+		text-align: center;
+	}
+
+	footer {
+		background-color: #116466;
+		color: white;
+		font-size: 1.4em;
+		padding: 2px;
+		margin: auto;
+		text-align: center;
+	}
+	
+}
+
+			/*	Layout - Phone */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.Main {
+		background-color: #D1E8E2;
+		margin: auto;
+		margin-bottom: 10px;
+		min-height: 600px;
+		width: 95%;
+	}
+		
+	#Drop_Down {
+		position: relative;
+		display: center;
+	}
+	
+	#Drop_Down_Button {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: inline-block;
+		padding: 15px;
+		cursor: pointer;
+		width: 100%
+	}
+	
+	#Drop_Down_Content {
+		display: none;
+		position: absolute;
+		background-color: #4B9682;
+		min-width: 160;
+		z-index: 1;
+		
+	}
+	
+	#Drop_Down_Content a {
+		color: white;
+		font-size: 1.5em;
+		padding: 10px 64px;
+		text-decoration: none;
+		display: block;
+		
+	}
+	
+	#Drop_Down_Content a:hover {
+		background-color: #438270;
+		
+	}
+	
+	#Drop_Down:hover #Drop_Down_Content {
+		display: block;
+		
+	}
+	
+	#Links {
+		display: none;
+	}
+	
+	.Side_Content {
+		font-size: 1.6em;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+	}
+
+	.Main_Content {
+		font-size: 1.6em;
+		margin: 5px;
+		margin-top: 10px;
+		overflow: auto;
+		padding: 1px;
+	}
+	
+				/*	Index.html	*/
+				
+	#Image_Rotating, #Image_Rotating_Line {
+		display: none;
+	}
+	
+	#SpaceX_HQ {
+		border-radius: 10px;
+		display: inline;
+		height: 30%;
+		margin-left: 20%;
+		margin-right: 20%;
+		width: 60%;
+	}
+	
+	#SpaceX_Team {
+		border-radius: 10px;
+		display: inline;
+		height: 25%;
+		margin-left: 10%;
+		margin-right: 10;
+		width: 80%;	
+	}
+	
+	h2 {
+		display: block;
+		font-size: 1.5em;
+		margin: 10px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#HQ_Content, .Main_Content {
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+				/*	About_SpaceX.html	 */
+				
+	.Main_Content_About {
+		font-size: 1.7em;
+		margin: 5px;
+		margin-left: 35px;
+	}
+	
+	h1 {
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#droneship {
+		margin: 10px;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 80%;
+	}
+	
+	iframe {
+		height: 210px;
+		margin: 15px;
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 373px;
+	}
+	
+	/*	Musk.html	*/
+				
+	#Main_Content_Musk {
+		display: inline-block;
+		font-size: 1.6em;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10px;
+		padding: 1px;	
+	}
+	
+	#Main_Content_Musk h3 {
+		font-size: 1.7em;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	#Main_Content_Musk li {
+		display: block;
+	}
+	
+	#Musk_Image img {
+		border-radius: 10px;
+		display: inline-block;
+		margin-bottom: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		width: 30%;
+	}
+	
+				/*	Current_SpaceX.html	 */
+	
+	.Rocket_Menu button {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: block;
+		margin: 5px;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding: 10px 110px;
+		text-align: center;
+	}
+	
+	.Rocket_Content {
+		border-top: 1px solid black;
+		font-size: 1.6em;
+		margin: 5px;
+		padding: 5px;
+		width: 100%;
+	}
+	
+	#Rocket_1 {
+		padding: 10px 17%;
+	}
+	
+	#Rocket_2 {
+		padding: 10px 17%;
+	}
+	
+	#Rocket_3 {
+		padding: 10px 16.7%;
+	}
+	
+	.Rocket_Content {
+		display: inline-block;
+		font-size: 1.7em;
+		margin: 5px;
+		padding: 15px;
+		width: 90%;
+	}	
+	
+	.Rocket_Content h4 {
+		text-align:center;
+		font-size: 1.8em;
+		
+	}
+	
+	#Rocket_Images {
+		margin-left: 5%;
+		margin-right: 5%;
+		
+	}
+	
+	#Rocket_Images aside {
+			text-align: center;
+			font-weight: bold;
+	}
+	
+	#Falcon {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 35%;
+		margin-right: 35%;
+		width: 35%;
+	}
+	
+	#Falcon_Heavy {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+	#Dragon_Capsule {
+		border-radius: 10px;
+		display: block; 
+		margin: 15px;
+		margin-left: 25%;
+		margin-right: 25%;
+		width: 60%;
+	}
+	
+				/*	Future_SpaceX.html	*/
+				
+	table, th, td, tr {
+		font-size: 1.2em;
+		margin: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding: 5px;
+	}
+	
+	table {
+		background-color: white;
+	}
+	
+	th, td{
+		color: white;
+		background-color: #116566;
+	}
+	
+	.Main_Content_Future img {
+		margin-bottom: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 70%;
+	}
+	
+	
+	
+				/*	Contact.html	*/
+				
+	label {
+		font-size: 1.5em;	
+			
+	}
+
+	h6 {
+		font-size: 30px;
+		margin-left: 25px;
+		
+	}	
+			
+			
+	.generalInput {
+		border: 1px solid black;
+		display: block;
+		height: 25px;
+		margin: 25px;
+		margin-bottom: 20px;
+		width: 250px;
+	}
+
+	span {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 25px;
+	}
+	
+	.clickInput {
+		border: 1px solid black;
+		margin-bottom: 7px;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+	
+	#Comment {
+		margin: 25px;
+		margin-left: 25px;
+		width: 250px;
+	}
+	
+	#Submit {
+		background-color: #116566;
+		border: none;
+		color: white;
+		display: block;
+		margin: 15px;
+		margin-left: 25px;
+		padding: 10px 30px;
+		text-align: center;
+	}
+
+	footer {
+		background-color: #116466;
+		color: white;
+		font-size: 1.5em;
+		padding: 2px;
+		margin: auto;
+		text-align: center;
+	}
+	
+}
+
+			/* Layout - Empty */
+
+@media screen and (max-width: 320px) {
+	html {
+		display: none;
+	}
+}
