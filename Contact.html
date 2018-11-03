@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+	
+		<head>
+		
+			<meta charset="UTF-8">
+			<meta name="keywords" content="HTML5, CSS3, JavaScript">
+			<meta name="description" content="Tadhg O'Rourke's Dublin Institute of Technology, Web Development project as part of Computer Science DT228-1, This Website details a basic description of The SpaceX Company, their Rockets and the Company itself. Contact Page">
+			
+			<link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">
+			<script src="Assets/Scripts/Contact.js"></script>
+			
+			<title>SpaceX</title>
+			
+		</head>
+		
+		<body onload="Test();">
+			<div class="Main">
+			
+				<header>
+					
+					<div>
+					</div>
+							
+				</header>
+				
+				<div id="Links">	
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li> 
+							<li><a href="About_SpaceX.html">About</a></li> 
+							<li><a href="Musk.html">Founder</a></li> 
+							<li><a href="Current_SpaceX.html">Current</a></li> 
+							<li><a href="Future_SpaceX.html">Plans</a></li> 
+							<li><a href="Contact.html">Contact</a></li> 
+						</ul>
+					</nav>
+				</div>
+				
+				<div id="Drop_Down">	
+					<button id="Drop_Down_Button">Menu</button>
+					<div id="Drop_Down_Content">
+						<a href="index.html">Home</a>
+						<a href="About_SpaceX.html">About</a> 
+						<a href="Musk.html">Founder</a>
+						<a href="Current_SpaceX.html">Current</a> 
+						<a href="Future_SpaceX.html">Plans</a>
+						<a href="Contact.html">Contact</a>
+					</div>
+				</div>
+				
+				<div class="Content">
+					<form action="server-script-url" name="contactForm" onsubmit="return( validateForm() );">
+					
+						<h6>Contact Form</h6>
+						
+						<label>
+							<span>Firstname: </span>
+							<input class="generalInput" type="text" name="name_First" required>
+						</label>
+						<br>
+						
+						<label>
+							<span>Surname: </span>
+							<input class="generalInput" type="text" name="name_Surname" required>
+						</label>
+						<br>
+						
+						<label>
+							<span>Address: </span>
+							<input class="generalInput" type="text" name="Address">
+						</label>
+						<br>
+						
+						<label>
+							<span>Email: </span>
+							<input class="generalInput" type="email" name="Email" required>
+						</label>
+						<br>
+						
+						<label>
+							<span>Gender: </span><br>
+							<input class="clickInput" type="radio" name="Gender" value="male" checked>Male<br>
+							<input class="clickInput" type="radio" name="Gender" value="female">Female<br>
+						</label>
+						<br>
+						
+						<label>
+							<span>Reason for Contact</span>
+							<select class="generalInput">
+								<option value="complaint">Complaint</option>
+								<option value="comment">Comment</option>
+								<option value="other">Other</option>
+							</select>
+						</label>
+						<br>
+						
+						<label>
+							<span>Required By law:</span><br>
+							<input class="clickInput" type="checkbox" name="effort" value="">Why?<br>
+							<input class="clickInput" type="checkbox" name="effort" value="">What else can go here?<br>
+							<input class="clickInput" type="checkbox" name="effort" value="">jono is cool<br>
+							<input class="clickInput" type="checkbox" name="effort" value="">cat.gif<br>
+						</label>
+						<br>
+						
+						<label>
+							<span>Comment</span><br>
+							<textarea id="Comment" rows="4" cols="50"></textarea>
+						</label>
+						<br>						
+						
+						<button onclick="validate();" type="submit" id="Submit">Submit</button>
+					
+					</form>
+					
+				</div>
+				
+				<footer>
+				
+					<p>Website Created By Tadhg O'Rourke</p>
+					
+				</footer>
+				
+			</div>
+		</body>
+		
+</html>

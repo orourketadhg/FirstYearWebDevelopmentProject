@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+	
+		<head>
+			
+			<meta charset="UTF-8">
+			<meta name="keywords" content="HTML5, CSS3, JavaScript">
+			<meta name="description" content="Tadhg O'Rourke's Dublin Institute of Technology, Web Development project as part of Computer Science DT228-1, This Website details a basic description of The SpaceX Company, their Rockets and the Company itself. Current Technology page">
+			
+			<link rel="stylesheet" type="text/css" href="Assets/CSS/Style.css">
+			<script src="Assets/Scripts/Text.js"></script>
+			
+			<title>SpaceX</title>
+			
+		</head>
+		
+		<body onload="Test();">
+			<div class="Main">
+			
+				<header>
+					
+					<div>
+					</div>
+							
+				</header>
+				
+				<div id="Links">	
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li> 
+							<li><a href="About_SpaceX.html">About</a></li> 
+							<li><a href="Musk.html">Founder</a></li> 
+							<li><a href="Current_SpaceX.html">Current</a></li> 
+							<li><a href="Future_SpaceX.html">Plans</a></li> 
+							<li><a href="Contact.html">Contact</a></li> 
+						</ul>
+					</nav>
+				</div>
+				
+				<div id="Drop_Down">	
+					<button id="Drop_Down_Button">Menu</button>
+					<div id="Drop_Down_Content">
+						<a href="index.html">Home</a>
+						<a href="About_SpaceX.html">About</a> 
+						<a href="Musk.html">Founder</a>
+						<a href="Current_SpaceX.html">Current</a> 
+						<a href="Future_SpaceX.html">Plans</a>
+						<a href="Contact.html">Contact</a>
+					</div>
+				</div>
+				
+				<div class="Content">
+				
+					<div class="Rocket_Menu">
+						<button id="Rocket_1" type="button" onclick="Rocket_1();">Falcon 9</button>
+						<button id="Rocket_2" type="button" onclick="Rocket_2();">Falcon Heavy</button>
+						<button id="Rocket_3" type="button" onclick="Rocket_3();">Dragon </button>
+					</div>
+				
+					<div class="Rocket_Content">
+					
+						<section id="PlaceHolder">
+							<h4>Falcon 9</h4>
+							
+							<p>The Falcon 9 rocket is SpaceX's most reliable rocket having 15 successful launches. This two stage rocket has become the most reusable rocket used today. It has launced both satellites and the Dragon spacecraft into orbit. First used during 2012 when it delivered a Dragon capsule containing cargo to the International Space Station.</p>
+						
+						</section>	
+						
+						
+						<section id="PlaceHolder_2">
+							<p>The Falcon 9 uses 9 engines to provide 7,607 kiloNewtons of force over 162 seconds to deliver the rocket to space. The Rocket has a mass of almost 550 Tons and can carry a payload of alomst 23 tons to low Earth orbit, over 8 tons to geosynchronous orbit and an estimated 4 Tons to Mars.</p>
+							
+							<p>The Rocket retains its reusablity by allowing the first stage to land back upon the earth safely, be at sea or on land.</p>
+						</section>	
+						
+						<section id="Rocket_Images">
+							<img id="Falcon" src="Assets/Images/Falcon_9.jpg" alt="Falcon 9 Rocket">
+							<aside>Falcon 9 Rocket</aside>
+							
+							<img id="Falcon_Heavy" src="Assets/Images/Falcon_Heavy.jpg" alt="Falcon Heavy">
+							<aside>Falcon Heavy Rocket</aside>
+							
+							<img id="Dragon_Capsule" src="Assets/Images/Dragon.jpg" alt="Dragon Capsule">
+							<aside>The Dragon Capsule</aside>
+						</section>
+									
+					</div>
+				
+				</div>
+				
+				<footer>
+				
+					<p>Website Created By Tadhg O'Rourke</p>
+					
+				</footer>
+				
+			</div>
+		</body>
+		
+</html>
